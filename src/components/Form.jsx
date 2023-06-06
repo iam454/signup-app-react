@@ -10,7 +10,11 @@ const Form = () => {
       <FormInput
         id={"id"}
         label={"아이디"}
-        inputProps={{ type: "text", placeholder: "아이디를 입력해주세요." }}
+        inputProps={{
+          type: "text",
+          placeholder: "아이디를 입력해주세요.",
+          // autoFocus: true,
+        }}
       />
       <FormInput
         id={"pw"}
